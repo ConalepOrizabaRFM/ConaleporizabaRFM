@@ -86,7 +86,7 @@
             color: #FFFFFF;
         }
         .preceptoria1:hover {
-            background-color: #3d3d3d;
+            background-color: #611232;
             color: #FFFFFF;
         }
         .contact-form {
@@ -124,7 +124,7 @@
     </div>
     
     <div class="preceptoria" onclick="this.querySelector('.details').style.display = this.querySelector('.details').style.display === 'none' ? 'block' : 'none';">
-        <strong>Oratoria <span class="right" style="color: #3d3d3d; margin-left: 8px;">¡Reciente!</span></strong>
+        <strong>Oratoria <span class="right" style="color: #575757; margin-left: 8px;">¡Reciente!</span></strong>
         <img src="CLIC.png" style="width: 20px; float: right; cursor: pointer;">
         <div class="details" style="display: none;">
             <p>Desarrolla tus habilidades de comunicación y liderazgo mientras aprendes a hablar en público con confianza. Mejora tu capacidad de expresar ideas de manera clara y persuasiva. Si te apasiona la palabra y deseas destacar en presentaciones o discursos, la oratoria es la oportunidad perfecta para ti.</p>
@@ -134,7 +134,7 @@
     </div>
 
     <div class="preceptoria" onclick="this.querySelector('.details').style.display = this.querySelector('.details').style.display === 'none' ? 'block' : 'none';">
-        <strong>(DJ) Sonido e Iluminación <span class="right" style="color: #3d3d3d; margin-left: 8px;">¡Reciente!</span></strong>
+        <strong>(DJ) Sonido e Iluminación <span class="right" style="color: #575757; margin-left: 8px;">¡Reciente!</span></strong>
         <img src="CLIC.png" style="width: 20px; float: right; cursor: pointer;">
         <div class="details" style="display: none;">
             <p>Sumérgete en el electrizante mundo del DJing y domina el arte de mezclar música y controlar las luces que encienden cualquier ambiente. Aprende a utilizar el equipo profesional de sonido e iluminación, mientras descubres los secretos detrás de las mejores mezclas y efectos que hacen vibrar a una audiencia. Si te apasiona la música y sueñas con ser el alma de la fiesta, ¡esta preceptoría es para ti!</p>
@@ -143,7 +143,7 @@
         </div>
     </div>
     <div class="preceptoria" onclick="this.querySelector('.details').style.display = this.querySelector('.details').style.display === 'none' ? 'block' : 'none';">
-        <strong>Atletismo<span class="right" style="color: #3d3d3d; margin-left: 8px;">¡Reciente!</span></strong>
+        <strong>Atletismo<span class="right" style="color: #575757; margin-left: 8px;">¡Reciente!</span></strong>
         <img src="CLIC.png" style="width: 20px; float: right; cursor: pointer;">
         <div class="details" style="display: none;">
             <p>Busca superar tus límites y alcanzar tu máximo potencial. Desarrolla tu resistencia, velocidad y fuerza a través de diversas disciplinas. Siente la satisfacción de mejorar tus marcas personales y alcanzar tus metas. Si deseas ser más rápido que el viento o saltar más alto, el atletismo es la oportunidad que necesitas.</p>
@@ -363,8 +363,8 @@
                  
 
 
-<div class="contact-form" id="contacto">
-    <h2 style="color: #a57f2c;">CONTACTO</h2>
+<div class="contact-form" id="contacto"> 
+    <h2 style="font-size: 1.8em;">CONTACTO</h2>
     
     <p>
         <span style="font-weight: bold;">¡Comparte Tu Talento!</span> Si posees una habilidad que te gustaría enseñar, completa el formulario y agendaremos una cita para conversar sobre tu propuesta. Se enviarán tus datos por correo al departamento de preceptorías. ¡Tu esfuerzo puede ser recompensado!
@@ -372,22 +372,23 @@
     <br style="margin-top: 2em;">
 
     <form action="mailto:acantu252@ver.conalep.edu.mx" method="post" enctype="text/plain" style="display: flex; flex-direction: column; align-items: center;">
-        <label for="name" style="align-self: flex-start;">Nombre:</label>
+        <label for="name" style="align-self: flex-start; font-weight: bold;">Nombre:</label>
         <input type="text" id="name" name="name" required style="width: 100%; max-width: 400px;">
 
-        <label for="email" style="align-self: flex-start;">Correo Electrónico:</label>
+        <label for="email" style="align-self: flex-start; font-weight: bold;">Correo Electrónico:</label>
         <input type="email" id="email" name="email" required style="width: 100%; max-width: 400px;">
 
-        <label for="number" style="align-self: flex-start;">Número de Teléfono:</label>
+        <label for="number" style="align-self: flex-start; font-weight: bold;">Número de Teléfono:</label>
         <input type="number" id="number" name="number" required style="width: 100%; max-width: 400px;">
 
-        <label for="message" style="align-self: flex-start;">Explica brevemente tu propuesta:</label>
+        <label for="message" style="align-self: flex-start; font-weight: bold;">Explica brevemente tu propuesta:</label>
         <textarea id="message" name="message" rows="5" required style="width: 100%; max-width: 400px;"></textarea>
 
         <input type="submit" value="Enviar" style="width: 100%; max-width: 400px; margin-top: 1em;">
         <input type="reset" value="Limpiar" style="width: 100%; max-width: 400px; margin-top: 0.5em;">
     </form>
 </div>
+
 
 
 
